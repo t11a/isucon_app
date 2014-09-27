@@ -8,7 +8,7 @@ worker_processes 5
 # Unicorn のインスタンスが立ち上がる
 working_directory "#{app_path}/current/"
 
-listen "#{app_shared_path}/tmp/sockets/unicorn.sock"
+listen "/tmp/unicorn.sock"
 
 stdout_path "#{app_shared_path}/log/unicorn.stdout.log"
 stderr_path "#{app_shared_path}/log/unicorn.stderr.log"
