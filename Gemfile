@@ -37,7 +37,7 @@ gem 'capistrano3-unicorn'
 
 
 group :development, :test do
-  gem 'debugger'
+  #gem 'debugger'
   gem 'capistrano', :require => false
   gem 'capistrano-rails', :require => false
   gem 'capistrano-rbenv', :require => false
