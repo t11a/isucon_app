@@ -33,3 +33,4 @@ production:
   database: isucon_production
   username: root
   password: hoge
+  socket: /var/lib/mysql/mysql.sock
