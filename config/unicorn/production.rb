@@ -6,7 +6,7 @@ worker_processes 5
 # 実態は symlink。
 # SIGUSR2 を送った時にこの symlink に対して
 # Unicorn のインスタンスが立ち上がる
-working_directory "#{app_path}/current/"
+working_directory "#{app_path}/current"
 
 listen "/tmp/unicorn.sock"
 
